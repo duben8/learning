@@ -20,8 +20,8 @@ jobs:
   say-hello-again:
     steps:
       - run:
-        name: "Hello again!"
-        command: "echo Hello world again!"
+          name: "Hello again!"
+          command: "echo Hello world again!"
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
