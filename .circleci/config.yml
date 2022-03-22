@@ -18,6 +18,8 @@ jobs:
           name: "Say hello"
           command: "echo Hello, World!"
   say-hello-again:
+    docker:
+      - image: cimg/base:stable
     steps:
       - run:
           name: "Hello again!"
